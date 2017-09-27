@@ -24,7 +24,7 @@ $(document).ready(function() {
 
     }
 
-    // on click button to 
+    // on click listener for topic buttons
     $(document).on("click", ".nerdShit-button", function() {
         $("#nerdShit").empty();
         $(".nerdShit-button").removeClass("active");
